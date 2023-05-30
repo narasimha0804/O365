@@ -19,3 +19,5 @@ Disconnect-ExchangeOnline
 Install-Module -Name ExchangeOnlineManagement -RequiredVersion 2.0.6-Preview5 -AllowPrerelease
 
 Get-ManagementRoleAssignment -Role “ApplicationImpersonation” -GetEffectiveUsers
+
+#connect-ExchangeOnline -UserPrincipalName narasimha@flagshipinc.com
